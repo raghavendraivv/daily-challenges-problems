@@ -1,7 +1,6 @@
 By ivvraghavendra199, contest: acmsguru, problem: (123) The sum, Wrong answer on test 2, #
  #include <math.h>
-#include <stdio.h>
-#include <string.h> 
+#include <stdio.h> 
 int main()
     {
     
