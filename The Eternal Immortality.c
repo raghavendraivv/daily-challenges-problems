@@ -2,12 +2,12 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
+#define ll long long
 int main() {
 
-    long long int a,b;
+    ll int a,b;
     scanf("%lld%lld",&a,&b);
-    long long int i,j,p=1,l=1,p;
+    ll int i,j,p=1,l=1,p;
     if(b<a)
     {
         printf("0");
