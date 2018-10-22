@@ -7,7 +7,7 @@ int main() {
 
     long long int a,b;
     scanf("%lld%lld",&a,&b);
-    long long int i,j,p=1,l=1,p;
+    long long int i,j,p=1,l=1;
     if(b<a)
     {
         printf("0");
