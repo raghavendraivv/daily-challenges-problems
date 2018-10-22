@@ -12,7 +12,8 @@ int main() {
     {
         printf("0");
     }
-    else{
+    else
+    {
         for(i=a+1;i<b+1;i++)
         {
             p=p*i%10;
