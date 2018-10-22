@@ -9,7 +9,7 @@ int main() {
     {
         string s;
         cin >> s;
-        a[s]++;
+        a[s]+1;
         if(a[s]==1)
         {
             cout << "OK"<<endl;
