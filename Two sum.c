@@ -3,7 +3,7 @@
  */
 int* twoSum(int* nums, int numsSize, int target) {
  int i,j,sum,k=0;
-    int *a = malloc(sizeof(int) * 2);
+    int *b = malloc(sizeof(int) * 2);
     for(i=0;i<numsSize;i++)
     {
         for(j=0;j<numsSize;j++)
@@ -12,8 +12,8 @@ int* twoSum(int* nums, int numsSize, int target) {
             {
                 if(nums[i]+nums[j]==target)
                 {
-                    a[0]=j;
-                    a[1]=i;
+                    b[0]=j;
+                    b[1]=i;
                    break;
                 }
             }
