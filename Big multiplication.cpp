@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int  i,p;
+    int  i,p,u,j;
     cin >> p;
     for(i=0;i<p;i++)
     {
@@ -13,11 +13,11 @@ int main()
         cin >> n >> m;
         ll int k = n.size();
         long int l = m.size();
-        for(int j=0;j<k;j++)
+        for(j=0;j<k;j++)
         {
             g = g + (n[j] - 48);
         }
-        for(int u=0;u<l;u++)
+        for(u=0;u<l;u++)
         {
             y = y + (m[u] - 48);
         }
