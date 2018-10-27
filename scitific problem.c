@@ -3,7 +3,6 @@ By ivvraghavendra199, contest: acmsguru, problem: (403) Scientific Problem, Acce
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
 int main() {
     long int n;
     scanf("%ld",&n);
