@@ -2,9 +2,6 @@ By ivvraghavendra199, contest: Codeforces Round #352 (Div. 2), problem: (B) Diff
  #include <bits/stdc++.h>
 
 using namespace std;
-
-
-
 int main()
 {
     set <char> x;
