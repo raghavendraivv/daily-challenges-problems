@@ -4,15 +4,12 @@ using namespace std;
 
 int main() {
     int n,m;
-    cin >> n; 
-    cin >> m;
-    int a[n],b[n],i,p,q,l,s;
+    cin >> n >> m;
+    int a[n],b[n],i,p,q,l,s,c[m],j,count=0;
     for(i=0;i<n;i++)
     {
-        cin >> a[i];
-        cin >> b[i];
+        cin >> a[i] >> b[i];
     }
-    int c[m],j;
     for(i=1;i<=m;i++)
     {
         c[i] = 1;
@@ -26,7 +23,6 @@ int main() {
             c[j] = 0;
         }
     }
-    int count = 0;
     for(i=1;i<=m;i++)
     {
         if(c[i]!=0)
