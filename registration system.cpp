@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     int n;
     cin >> n;
     map <string,int> a;
@@ -12,10 +13,12 @@ int main() {
         a[s]++;
         if(a[s]==1)
         {
-            cout << "OK"<<endl;
+            cout << "OK" <<endl;
         }
-        else{
-            cout << s << a[s]-1 << endl;
+        else
+        {
+            int p = a[s]-1;
+            cout << s << p << endl;
         }
     }
     return 0;
