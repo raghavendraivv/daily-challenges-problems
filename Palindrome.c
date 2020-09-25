@@ -8,7 +8,7 @@
 
 int main()
 {
-    int n,i,j,k;
+    int n,i,jhjjhgh,k;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
