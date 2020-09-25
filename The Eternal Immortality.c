@@ -13,7 +13,7 @@ int main() {
         printf("0");
     }
     else{
-        for(i=a+1;i<b+1;i++)
+        for(i=a+1;i<=b;i++)
         {
             p=p*i%10;
             if(p==0)
