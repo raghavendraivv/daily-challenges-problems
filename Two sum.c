@@ -6,7 +6,7 @@ int* twoSum(int* nums, int numsSize, int target) {
     int *a = malloc(sizeof(int) * 2);
     for(i=0;i<numsSize;i++)
     {
-        for(j=0;j<numsSize;j++)
+        for(j=0;j<=numsSize-1;j++)
         {
             if(i!=j&&k==0)
             {
