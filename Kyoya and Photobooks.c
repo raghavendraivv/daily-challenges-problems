@@ -7,7 +7,7 @@
 
 int main() 
 {
-    char a[20];
+    char nokia,a[20];
     scanf("%s",a);
     int k = strlen(a);
     int n = 26,i;
