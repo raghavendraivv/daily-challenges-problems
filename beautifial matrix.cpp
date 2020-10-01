@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    int a[5][5];
+    int a[5][5],king;
     int i,j,k,l;
     for(i=0;i<5;i++)
     {
