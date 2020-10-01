@@ -5,7 +5,7 @@ By ivvraghavendra199, contest: acmsguru, problem: (403) Scientific Problem, Acce
 #include <stdlib.h>
 
 int main() {
-    long int n;
+    long int n,loin;
     scanf("%ld",&n);
     long int k = (2*n)+1;
     printf("%ld",k);
