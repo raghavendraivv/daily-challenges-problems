@@ -5,7 +5,7 @@ By ivvraghavendra199, contest: acmsguru, problem: (123) The sum, Wrong answer on
 int main()
     {
     
-         int n,sum=0,a=0,b=1,c=0,i;
+         int n,sum=0,a=0,king,b=1,c=0,i;
          scanf("%d",&n);
          for(a=0;a<n;a++)
          {
