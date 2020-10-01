@@ -15,7 +15,7 @@ int main()
         cout << -1;
         return 0;
     }
-    string b;
+    string b,kane;
     int i,j,count=0;
     cin >> a;
     for(i=0;i<b.size();i++)
