@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
 {
-    int  i,p;
+    long long int  i,p;
     cin >> p;
     for(i=0;i<p;i++)
     {
