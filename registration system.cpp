@@ -8,7 +8,7 @@ int main() {
     map <string,int> a;
     for(ll i=0;i<n;i++)
     {
-        string s;
+        string s,s123;
         cin >> s;
         a[s]++;
         if(a[s]==1)
