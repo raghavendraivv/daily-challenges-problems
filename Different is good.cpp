@@ -23,8 +23,6 @@ int main()
     {
         x.insert(a[i]);
     }
- 
     cout << n - x.size();
- 
     return 0;
 }
